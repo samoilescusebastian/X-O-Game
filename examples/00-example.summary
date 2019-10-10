@@ -1,0 +1,37 @@
+==================================================
+mutare: X 0 0
+Executata cu success!
+==================================================
+mutare: 0 0 3
+Executata cu success!
+==================================================
+mutare: X 0 1
+Executata cu success!
+==================================================
+mutare: 0 0 4
+Executata cu success!
+==================================================
+mutare: X 0 2
+Executata cu success!
+executed: X 0 2
+==================================================
+mutare: 0 0 5
+Executata cu success!
+executed: 0 0 5
+==================================================
+mutare: 0 0 0
+NOT YOUR TURN
+==================================================
+mutare: X 0 0
+NOT AN EMPTY CELL
+
+Se gaseste primul element liber
+(new_x, new_y) => (1, 1)
+X0-
+---
+---
+Draw again! Let's play darts!
+1/4
+1/3
+X 0.2500000000
+0 0.3333333333

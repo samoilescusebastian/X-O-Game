@@ -1,0 +1,38 @@
+--------------------------------------
+--------------------------------------
+        Sebastian Samoilescu
+            GRUPA 315CA
+            TEMA 02 PC
+--------------------------------------
+--------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------
+Poli TicTacToe
+----------------------------------------------------------------------------------------------------------------------------------
+
+---> Rezolvarea celor 3 task-uri se face in mod concomitent,
+     iar procesul radacina este 'read_data';
+
+---> Pentru completarea jocului folosim o matrice de char cu dim n^2 X n^2
+     impartita in n X n zone reprezentand mini-board-uri. Initial toata
+     matrice contine 'E', adica este 'empty';
+
+---> Pentru simplificare problemei salvam coordonatele fiecarui mini-board
+     intr-un tablou tridimensional (vectori de matrici 2 x 2); 
+
+---> La fiecare mutare valida se va adauga o casuta cu '0' pentru player 0
+     sau o casuta 'X' pentru player X;
+
+---> La fiecare mutare valida se verifica doar mini-boardul respectiv dat de
+     (x,y) si se updateaza macro-boardul dupa caz;
+
+---> Pentru task2 se foloseste un macroboard 
+
+---> Pentru macro-board se foloseste o matrice de char de n x n in care
+     fiecare casuta reprezinta starea miniboard-ului asociat :
+     ('-' = draw, 'o' -o won, 'x' - x won)
+     Initial tot macroboardul este marcat cu '-'
+
+---> Pentru task3 salvam coeficientii ajutatori intr-o matrice de 2 X 2
+     unde liniile sunt reprezenate de player 'x' si player '0', iar
+     coloanele reprezinta coeficientii ajutatori
